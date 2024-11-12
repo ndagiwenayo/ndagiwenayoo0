@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Friendly Toys</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>ET<span class="leaf">🍃</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="cart-icon">
+            <span id="cart-count">0</span> items
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h2 id="hero-greeting">Welcome!</h2>
+        <p>Explore sustainable and safe toys that inspire creativity and growth!</p>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories">
+        <h2>Categories</h2>
+        <div class="category-container">
+            <div class="category-item">
+                <img src="chunky-shape-puzzle-398116.webp" alt="Wooden Toys">
+                <h3>Wooden Toys</h3>
+                <p>Handcrafted, durable, and eco-friendly wooden toys that spark imagination.</p>
+                <button onclick="exploreCategory('Wooden Toys')">Explore Wooden Toys</button>
+            </div>
+            <div class="category-item">
+                <img src="71aGbSA8EGL.jpg" alt="Puzzles">
+                <h3>Puzzles</h3>
+                <p>Engaging puzzles designed to enhance cognitive skills and creativity.</p>
+                <button onclick="exploreCategory('Puzzles')">Explore Puzzles</button>
+            </div>
+            <div class="category-item">
+                <img src="images (1).jpeg" alt="Stuffed Animals">
+                <h3>Stuffed Animals</h3>
+                <p>Soft, cuddly, and comforting stuffed animals, perfect for little ones.</p>
+                <button onclick="exploreCategory('Stuffed Animals')">Explore Stuffed Animals</button>
+            </div>
+            <div class="category-item">
+                <img src="download (4).jpeg" alt="Learning Toys">
+                <h3>Learning Toys</h3>
+                <p>Educational toys that make learning fun and interactive.</p>
+                <button onclick="exploreCategory('Learning Toys')">Explore Learning Toys</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <p>At Eco-Friendly Toys, we are committed to providing safe, sustainable, and engaging toys for young, curious minds. Our toys are crafted from eco-friendly materials to ensure both fun and environmental responsibility.</p>
+            <p>We believe that play is a powerful way to learn, and our selection of wooden toys, puzzles, stuffed animals, and learning toys are carefully designed to foster creativity and learning. Join us in making a positive impact on the planet while bringing joy to your little ones.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, suggestions, or just want to say hello, please reach out to us!</p>
+        <div class="contact-form">
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Eco-Friendly Toys. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
